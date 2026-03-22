@@ -1,3 +1,4 @@
 streamlit
-pyspark==3.5.0
+pyspark==3.5.3
 pandas
+setuptools
