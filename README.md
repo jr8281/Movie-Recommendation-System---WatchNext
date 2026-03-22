@@ -1,5 +1,7 @@
 🎬 WatchNext
+
 A Movie Recommendation System powered by PySpark ALS
+
 Developed by Jaswanth Babu Reddi
 
 Project Description
