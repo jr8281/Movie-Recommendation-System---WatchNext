@@ -4,13 +4,13 @@ A Movie Recommendation System powered by PySpark ALS
 
 Developed by Jaswanth Babu Reddi
 
-Project Description
+Project Description:
 
 WatchNext is a movie recommendation system built using the ALS (Alternating Least Squares) collaborative filtering algorithm from PySpark MLlib. It analyzes user rating patterns from the MovieLens dataset and suggests personalized movie recommendations for any given user.
 
 The app is deployed as an interactive web application using Streamlit, allowing users to simply enter a User ID and instantly get their top movie picks.
 
-Features
+Features:
 
 🔍 Personalized Recommendations — Enter any User ID (1–610) and get top N movie recommendations tailored specifically for that user
 
@@ -24,6 +24,7 @@ Features
 
 🌐 Live Web App — Fully deployed and accessible from any browser via Streamlit Cloud
 
+Tech Stack:
 
 PySpark - Data processing and ALS model training
 
