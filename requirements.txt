@@ -1,4 +1,5 @@
-streamlit
+streamlit==1.45.1
 pyspark==3.5.3
-pandas
-setuptools
+pandas==2.2.3
+setuptools==75.8.2
+requests==2.32.3
