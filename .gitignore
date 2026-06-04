@@ -12,6 +12,9 @@ env/
 # Environment variables
 .env
 
+# Streamlit secrets (never commit API keys)
+.streamlit/secrets.toml
+
 # Spark logs and temp files
 spark-warehouse/
 derby.log
