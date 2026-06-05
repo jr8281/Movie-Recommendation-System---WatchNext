@@ -498,6 +498,8 @@ with tab3:
     st.markdown("### Developed By")
     st.markdown("""
     **Jaswanth Babu Reddi**
+
     B.Tech CSE — Big Data Analytics
+    
     SRM Institute of Science and Technology, Kattankulathur
     """)
