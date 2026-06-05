@@ -26,7 +26,7 @@
 
 | Home Screen | Recommendations | Model Insights |
 |---|---|---|
-| ![Home](screenshots/home.png) | ![Recs](screenshots/recommendations.png) | ![Insights](screenshots/insights.png) |
+| ![Home](screenshots/home.png) | ![Recs](screenshots/recommendation.png) | ![Insights](screenshots/insights.png) |
 
 ---
 
