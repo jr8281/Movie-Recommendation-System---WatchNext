@@ -21,16 +21,16 @@ _tuning_results  = []          # stores param-grid comparison for README / UI
 
 def create_spark_session():
     """Create and return a configured SparkSession."""
-    return (
-        SparkSession.builder
-        .appName("WatchNext")
-        .config("spark.driver.memory", "4g")
-        .config("spark.executor.memory", "4g")
-        .config("spark.sql.shuffle.partitions", "50")   # reduced: dataset is small
-        .config("spark.default.parallelism", "50")
-        .config("spark.ui.showConsoleProgress", "false")
+    return SparkSession.builder \
+        .appName("WatchNext") \
+        .config("spark.driver.memory", "2g") \
+        .config("spark.executor.memory", "2g") \
+        .config("spark.sql.shuffle.partitions", "10") \
+        .config("spark.default.parallelism", "10") \
+        .config("spark.ui.showConsoleProgress", "false") \
+        .config("spark.driver.extraJavaOptions", "-Dlog4j.logLevel=ERROR") \
+        .config("spark.executor.extraJavaOptions", "-Dlog4j.logLevel=ERROR") \
         .getOrCreate()
-    )
 
 
 def load_data(spark, ratings_path: str, movies_path: str):
