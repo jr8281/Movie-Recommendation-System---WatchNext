@@ -1,11 +1,7 @@
 # 🎬 WatchNext — Movie Recommendation System
 
-![WatchNext Banner](https://via.placeholder.com/1200x300/0a0a0f/e50914?text=WatchNext+%E2%80%94+AI+Movie+Recommendations)
-
 > A personalised movie recommendation system powered by **PySpark ALS** collaborative filtering, with hyperparameter tuning, cold-start handling, and TMDB movie poster integration. Deployed as a dark-themed interactive web app on Streamlit Cloud.
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://movie-recommendation-system-watchnext.streamlit.app/)
-&nbsp;
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 &nbsp;
 ![PySpark](https://img.shields.io/badge/PySpark-3.5.3-orange)
@@ -21,8 +17,6 @@
 ---
 
 ## 📸 Screenshots
-
-> *(Replace these with actual screenshots of your running app)*
 
 | Home Screen | Recommendations | Model Insights |
 |---|---|---|
@@ -72,10 +66,10 @@ ALS Collaborative Filtering (PySpark MLlib)
 
 | Rank | RegParam | MaxIter | RMSE |
 |------|----------|---------|------|
-| 10   | 0.1      | 10      | *fill after running* |
-| 20   | 0.1      | 10      | *fill after running* |
-| 20   | 0.01     | 15      | *fill after running* |
-| **50**   | **0.1**  | **10**  | **best — fill after running** |
+| 10   | 0.1      | 10      | 0.874100 |
+| 20   | 0.1      | 10      | 0.871700 |
+| 20   | 0.01     | 15      | 1.088800 |
+| **50**   | **0.1**  | **10**  | **0.871600** |
 
 > RMSE is measured on a held-out 20% test split. Lower = better.
 > The winning configuration is selected automatically and displayed live in the app sidebar.
@@ -93,7 +87,7 @@ WatchNext/
 ├── runtime.txt             # Python version: 3.11
 ├── .gitignore
 ├── README.md
-├── screenshots/            # App screenshots (add after running)
+├── screenshots/            # App screenshots 
 │   ├── home.png
 │   ├── recommendations.png
 │   └── insights.png
@@ -230,5 +224,5 @@ unnecessary overhead on a 100K-row dataset. Reducing it to 50 cut training time 
 ## Developed By
 
 **Jaswanth Babu Reddi**
-B.Tech CSE — Big Data Analytics Specialisation
+B.Tech CSE — Big Data Analytics
 SRM Institute of Science and Technology, Kattankulathur
